@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tocabi_head</name>
+  <version>0.0.0</version>
+  <description>dynamixel_sdk to control tocabi_head</description>
+
+  <author email="jasonshin0537@snu.ac.kr">jaeyong Shin</author> -->
+  <maintainer email="jasonshin0537@snu.ac.kr">jaeyong Shin</maintainer>
+
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>dynamixel_sdk</depend>
+  <depend>tocabi_msgs</depend>
+  <depend>tf</depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <build_depend>eigen_conversions</build_depend>
+  <build_export_depend>eigen_conversions</build_export_depend>
+  <exec_depend>eigen_conversions</exec_depend>
+
+</package>
